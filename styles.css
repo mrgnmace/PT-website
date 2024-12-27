@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+html{
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+    background-color: black;
+}
+
+
+header{
+    height: 80px;
+    padding: 0 15px;
+    background-color: black;
+
+    border-bottom: solid 3px #3C8BBB;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header #h-links {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 82px;
+
+    width: 100%;
+
+    background-color: #bb3c3c;
+}
+header #h-links a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.phone{
+    font-size: 18px;
+}
+.email{
+    font-size: 11px;
+}
+
+
+
+/* .hero .image{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+} */
+
+.hero {
+    background-image: url("media/hero_image.png");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.hero p{
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-top: 15px;
+}
+.get_in_touch{
+    background-color: #3C8BBB; /* Green */
+    border: none;
+    color: white;
+    padding: 21px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hero_btn{
+    border-radius: 100px;
+
+    margin: 40px;
+
+    font-weight: 700;
+}

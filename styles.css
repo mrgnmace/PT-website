@@ -28,6 +28,7 @@ header{
     justify-content: space-between;
 
     position: sticky;
+    z-index: 9999;
     top: 0;
 }
 header #h-links {
@@ -98,12 +99,20 @@ header #h-links a {
 
 .read-bio-link{
     all: unset;
+    display: block; /* Makes the link act as a block-level element */
+    text-decoration: none; /* Remove underline for the link */
+    color: inherit; /* Inherit the text color */
+    height: 100%; /* Ensure it matches the height of the child elements */
+    width: 100%; /* Stretch to occupy the full width */
+    background-color: red;
 }
 .cont-bio{
     margin: 40px auto;
     width: 90%;
     border-radius: 23px;
     padding: 1px;
+
+    position: relative; /* Ensure it keeps its layout */
 
 
     background-color: #E8E8E8;
@@ -138,9 +147,9 @@ header #h-links a {
 
 /* ------------------------------------------ */
 
-.service-conditions{
+.services{
     width: 90%;
-    margin: auto;
+    margin: 40px auto;
 }
 .intro h1{
     color: #5CC1FF;
@@ -167,18 +176,11 @@ header #h-links a {
     line-height: 1.5;
 }
 
-.custom-line {
-    border: none;
-    border-top: 1px solid #ffffff; /* Adjust color */
-    width: 65%; /* Adjust width */
-    margin: 20px auto; /* Center horizontally and set vertical spacing */
-}
-
 /* ------------------------------------------ */
 
 .rely{
     width: 90%;
-    margin: auto;
+    margin: 40px auto ;
 }
 .rely h1{
     color: #5CC1FF;
@@ -187,6 +189,21 @@ header #h-links a {
     font-size: 18px;
     line-height: 1.5;
     margin: 20px 0;
+}
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.custom-line {
+    border: none;
+    border-top: 1px solid #ffffff; /* Adjust color */
+    width: 65%; /* Adjust width */
+    margin: 20px auto; /* Center horizontally and set vertical spacing */
 }
 
 .filler{

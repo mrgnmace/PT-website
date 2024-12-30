@@ -31,6 +31,10 @@ header{
     z-index: 9999;
     top: 0;
 }
+.hd-logo a img{
+    width: 50px;
+    height: 50px;
+}
 header #h-links {
     display: none;
     position: absolute;
@@ -201,7 +205,7 @@ header #h-links a {
 }
 .contact button[type=submit]{
     width: 100%;
-  background-color: #bb3c3c;
+  background-color: #3C8BBB;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -209,6 +213,66 @@ header #h-links a {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* ------------------------------------------ */
+
+footer{
+    background-color: #BB3C3C;
+    padding: 1px;
+}
+
+.brand{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+
+}
+.brand img{
+    width: 100%;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+}
+.follow_us{
+    width: 90%;
+    margin: 20px auto;
+}
+.follow_us ul li{
+    margin: 15px 0;
+    margin-right: 15px;
+}
+.quick{
+    width: 90%;
+    margin: 20px auto;
+}
+.quick a{
+    color: #ffffff;
+}
+.quick ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.quick li{
+    
+    font-size: 24px;
+    margin-top: 10px;
+}
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
 
 
 

@@ -51,6 +51,8 @@ header #h-links a {
     text-decoration: none;
     font-size: 17px;
     display: block;
+
+    border-bottom: 1px solid rgb(200, 200, 200) 200px;
 }
 
 .phone{
@@ -96,7 +98,8 @@ header #h-links a {
 
     margin: 40px;
 
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* ------------------------------------------ */
@@ -161,6 +164,11 @@ header #h-links a {
 }
 .element img{
     margin-right: 20px;
+
+    max-width: 42px;
+}
+.width-42{
+    width: 42px;
 }
 .element .text h2{
     color: #5CC1FF;
@@ -170,7 +178,12 @@ header #h-links a {
     font-size: 18px;
     line-height: 1.5;
 }
+.posture_image_dimensions{
+    width: 42px;
+    height: 42px;
 
+    margin-right: 20px;
+}
 /* ------------------------------------------ */
 
 .rely{
@@ -190,13 +203,23 @@ header #h-links a {
 
 .contact{
     margin: 40px auto;
-    width: 90%
+    width: 80%;
+
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    padding: 20px;
+}
+.contact h3{
+    color: black;
+
+    margin-bottom: 20px;
 }
 .contact input, textarea{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
+    border: none;
     border-bottom: 5px solid #3C8BBB;
     border-radius: 4px;
     box-sizing: border-box;
@@ -212,6 +235,8 @@ header #h-links a {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 /* ------------------------------------------ */

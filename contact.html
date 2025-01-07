@@ -1,1 +1,132 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hd-logo">
+            <a href="/"><img src="media/logo.png" alt="logo image"></a>
+        </div>
+        <div class="hd-contact">
+            <p class="phone">+44 7458 196925</p>
+            <p class="email">getintouch@business.com</p>
+        </div>
+        <div class="hd-burger">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="media/menu_burger.png" alt="burger image">
+            </a>
+        </div>
+
+        <div id="h-links">
+            <a href="#">Services</a>
+            <a href="#">Prices</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>  
+    </header>
+
+    <main>
+        <div class="reach">
+            <ul>
+                <li>
+                    <h2>Phone</h2>
+                    <p>020 7628 9995</p>
+                </li>
+                <li>
+                    <h2>Email</h2>
+                    <p>enquiries@thecutgym.com</p>
+                </li>
+                <li>
+                    <h2>Adress</h2>
+                    <p>Austin Friars House <br>
+                        2-6 Austin Friars <br>
+                        London EC2N 2HD</p>
+                </li>
+                <li>
+                    <h2>Social Media</h2>
+                    <ul class="social_links">
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Send a message</h3>
+            <form id="contact" method="POST" data-netlify="true" class="message_form">
+                <p>
+                    <input id="name" name="name" placeholder="Name*" style="font-family: Arial, sans-serif;">
+                </p>
+                <p>
+                    <input id="email" name="email" placeholder="Email*" style="font-family: Arial, sans-serif;">
+                </p>
+                <p>
+                    <input id="tel" name="email" placeholder="Phone*" style="font-family: Arial, sans-serif;">
+                </p>
+                <p>
+                    <textarea id="message" placeholder="Message*" rows="4" style="font-family: Arial, sans-serif; overflow: hidden; resize: none;"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+              
+        </div>
+    </main>
+
+    <footer>
+        <div class="brand">
+            <a href="#"><img src="media/BohdanPT with logo.png" alt="logo image"></a>
+        </div>
+
+        <div class="follow_us">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href=""><img src="media/inst.svg" alt=""></a></li>
+                <li><a href=""><img src="media/fb.svg" alt=""></a></li>
+                <li><a href=""><img src="media/tt.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="quick">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Prices</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    <script>
+        // Parse URL parameters
+        const params = new URLSearchParams(window.location.search);
+      
+        // Pre-fill form fields
+        document.getElementById('name').value = params.get('name') || '';
+        document.getElementById('email').value = params.get('email') || '';
+        document.getElementById('message').value = params.get('message') || '';
+
+        // Scroll to a specific section if an ID is provided in the URL
+        const scrollToId = params.get('scrollTo');
+        if (scrollToId) {
+            const element = document.getElementById(scrollToId);
+            if (element) {
+            element.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the element
+            }
+        }
+      </script>
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

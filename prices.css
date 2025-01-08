@@ -1,0 +1,64 @@
+html{
+    font-family: "Poppins", serif;
+
+}
+.offer_box{
+    width: 90%;
+    margin: 40px auto;
+    padding-bottom: 25px;
+
+    border: 1px solid #5CC1FF;
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+}
+.top h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #F85656;
+    margin-top: 30px;
+}
+.top h3{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+button{
+    position: absolute;
+
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%); /* Align to center */
+
+
+}
+.t{
+    width: 100%;
+    position: relative;
+
+    margin: 25px 0;
+}
+.t hr{
+    border-color: #5CC1FF;
+}
+
+
+
+.bottom{
+    width: 90%;
+    margin: 0 auto;
+}
+.bottom hr{
+    margin: 25px 0;
+}

@@ -1,3 +1,8 @@
+html{
+    font-family: "Poppins", serif;
+
+}
+
 ul{
     list-style: none;
     padding: 0;
@@ -43,7 +48,24 @@ ul{
 }
 .services-content p{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.services{
+    margin-left: auto 0 !important;
+}
+
+.remarks{
+    margin: 40px 0  ;
+}
+.remarks a:link, .remarks a:visited{
+    text-decoration: underline;
+    color: #c2e8ff;
+}
+
+.see_prices:link, .see_prices:visited{
+    text-decoration: underline;
+    color: #5CC1FF;
 }

@@ -84,7 +84,13 @@ header #h-links a {
     font-size: 14px;
     font-weight: 500;
 
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+.get_in_touch:link, .get_in_touch:visited {
+    background-color: #3C8BBB;
+    text-align: center;
+    text-decoration: none;
 }
 .get_in_touch{
     background-color: #3C8BBB; /* Green */
@@ -99,7 +105,7 @@ header #h-links a {
 .hero_btn{
     border-radius: 100px;
 
-    margin: 40px;
+    margin: 30px;
 
     font-size: 20px;
     font-weight: 600;

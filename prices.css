@@ -27,10 +27,13 @@ html{
     color: #F85656;
     margin-top: 30px;
 }
+.top p{
+    font-size: 13px;
+    color: #983030;
+}
 .top h3{
     font-size: 48px;
     font-weight: 600;
-    margin-top: 20px;
 }
 
 
@@ -61,4 +64,5 @@ button{
 }
 .bottom hr{
     margin: 25px 0;
+    border-color: rgb(172, 172, 172);
 }

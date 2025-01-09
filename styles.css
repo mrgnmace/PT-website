@@ -56,6 +56,13 @@ header #h-links a {
     border-bottom: 1px solid rgb(200, 200, 200) 200px;
 }
 
+.h-links .custom-line-{
+    border: none;
+    border-top: 1px solid #ffffff; /* Adjust color */
+    width: 10%; /* Adjust width */
+    margin: 20px auto; /* Center horizontally and set vertical spacing */
+}
+
 .phone{
     font-size: 18px;
 }
@@ -147,9 +154,11 @@ header #h-links a {
     margin-top: 5px;
 
 }
-.read-bio{
+.read-bio:link, .read-bio:visited{
     font-size: 20px;
     font-weight: bold;
+
+    color: #551a8b;
 }
 
 /* ------------------------------------------ */

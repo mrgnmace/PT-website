@@ -26,8 +26,8 @@
         </div>
 
         <div id="h-links">
-            <a href="#">Services</a>
-            <a href="#">Prices</a>
+            <a href="services.html">Services</a>
+            <a href="prices.html">Prices</a>
             <a href="#">FAQs</a>
             <a href="#">Contact</a>
             <a href="#">About</a>
@@ -47,10 +47,56 @@
                 </li>
                 <li>
                     <h2>Adress</h2>
-                    <p>Austin Friars House <br>
+                    <!-- <p>Austin Friars House <br>
                         2-6 Austin Friars <br>
-                        London EC2N 2HD</p>
+                        London EC2N 2HD</p> -->
+                    <p>Unit 34 <br>
+                        Clifton Way <br>
+                        Cambridge CB1 7DY</p>
+
+                    
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+        <div id="map" style="height: 400px;"></div>
+
+        <script>
+            var map = L.map('map').setView([52.19005187240789, 0.13721540896340173], 13); // Replace with your coordinates
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+            }).addTo(map);
+            L.marker([52.19005187240789, 0.13721540896340173]).addTo(map) // Replace with your coordinates
+                .bindPopup('Puregym Leisure Park')
+                .openPopup();
+        </script>
+
+        <!-- <div id="map" style="height: 400px;"></div>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+        <script>
+            var map = L.map('map').setView([51.505, -0.09], 13); // Replace with your coordinates
+
+            // Google Maps-like tile layer
+            L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=YOUR_MAPTILER_API_KEY', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style by <a href="https://www.maptiler.com/">MapTiler</a>',
+                maxZoom: 19
+            }).addTo(map);
+
+            // Add a marker
+            L.marker([51.505, -0.09]).addTo(map)
+                .bindPopup('Your address here')
+                .openPopup();
+        </script> -->
+
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.3879192110103!2d0.1381498910162215!3d52.18835425811592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d87a78b714edfd%3A0x9c22bb49d24b7159!2sPureGym%20Cambridge%20Leisure%20Park!5e0!3m2!1sen!2suk!4v1736419767051!5m2!1sen!2suk" width="375" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+                
+
                 </li>
+                
                 <!-- <li>
                     <h2>Social Media</h2>
                     <ul class="social_links">

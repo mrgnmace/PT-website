@@ -37,7 +37,6 @@ html{
     margin: auto;
 }
 .discounts h2{
-    color: ;
 }
 .discounts .pp{
     border: 2px solid #983030;
@@ -188,3 +187,38 @@ html{
     border-color: rgb(172, 172, 172);
 }
 /* ------------------------------------------ */
+.line-with-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line-with-button::before,
+.line-with-button::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #5CC1FF;
+}
+
+.line-with-button::before {
+}
+
+.line-with-button::after {
+}
+
+.line-with-button button {
+    background-color: #5CC1FF;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.line-with-button button:hover {
+    background-color: #0056b3;
+}

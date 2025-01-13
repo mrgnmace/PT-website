@@ -20,6 +20,66 @@ html{
     font-size: 32px;
 }
 /* ------------------------------------------ */
+.discounts{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px 0;
+
+    background-color: rgb(248, 86, 86, 0.3);
+    border: 3px solid #983030;
+    border-radius: 25px;
+
+}
+
+.discounts h1{
+    color: #f6f6f6;
+    width: 90%;
+    margin: auto;
+}
+.discounts h2{
+    color: ;
+}
+.discounts .pp{
+    border: 2px solid #983030;
+    margin-bottom: 10px;
+}
+.discounts .m{
+    width: 90%;
+    margin: 25px auto;
+    border-color: #cd7575;
+}
+.disc{
+    width: 90%;
+    margin: auto;
+}
+.disc p{
+    color: #ffc9c9;
+    
+}
+.disc a{
+    all: unset; 
+
+    text-decoration: underline;
+}
+.disc a:visited{
+    all: unset;
+
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: 700;
+}
+.white{
+    color: white;
+}
+/* ------------------------------------------ */
 .offers{
     width: 90%;
     margin: auto;

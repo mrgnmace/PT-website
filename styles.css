@@ -12,6 +12,9 @@
     align-items: center;
     flex-direction: column;
   }
+.hero h1{
+    white-space: nowrap;  
+}
 
 .hero p{
     font-size: 14px;

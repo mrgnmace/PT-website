@@ -224,7 +224,7 @@ footer ul{
 
 .hr-h{
     width: 40%;
-    margin: 30px auto;
+    margin: 20px auto;
 
     border-color: white;
     border-width: 2px;
@@ -242,6 +242,7 @@ footer ul{
 
     overflow: hidden;
     white-space: nowrap;
+
 }
 .overlay .ua{
     width: 42px;
@@ -249,4 +250,7 @@ footer ul{
 .ua-link{
     display: flex;
     justify-content: center;
+
+    overflow: hidden;
+    white-space: nowrap;
 }

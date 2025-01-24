@@ -94,6 +94,9 @@ html{
     margin-bottom: 10px;
 }
 .offer_box{
+    max-width: 350px;
+    min-width: 220px;
+
     margin: 40px auto;
     margin-top: 0;
     padding-bottom: 25px;
@@ -106,6 +109,9 @@ html{
     display: flex;
     flex-direction: column;
 }
+/* .obs{
+    display: flex;
+} */
 
 .top{
     display: flex;

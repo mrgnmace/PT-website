@@ -1,0 +1,16 @@
+.hero{
+    background-color: #1F1F1F;
+    /* width: 100vw;
+    transform: translate(-8%);
+    left: 0; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 130px;
+
+}
+.hero h2{
+    font-size: 32px;
+}
